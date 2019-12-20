@@ -1,0 +1,278 @@
+.submenu{
+	width: 100%;
+	padding-top: 70px;
+}
+.submenu .active{
+	background: #2b2b2d;
+	color: #fff;
+}
+.contactSubMenu{
+	width: 96%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 0 1%;
+	background: #ede6e6;
+}
+.contactSubMenu li{
+	width: 32%;
+	padding: 2% 1.8% 1.5%;
+	margin: 0.5%;
+	float: left;
+	font-size: 4vw;
+	text-align: center;
+	border-radius: 10vw;
+	border: 0.2vw solid #2b2b2d;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 5px 7px -4px rgba(0,0,0,0.52);
+	-moz-box-shadow: 0px 5px 7px -4px rgba(0,0,0,0.52);
+	box-shadow: 0px 5px 7px -4px rgba(0,0,0,0.52);
+}
+.sect1, .sect2, .sect3{
+	padding: 0 5vw 5vw;
+	margin: 0 auto;
+	background: #ede6e6;
+}
+.sect2,.sect3{
+	display: none;
+}
+/*  SECT1 -----------------------------------------  */
+.sect1Wrap{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.sect1Content{
+	width: 90%;
+	margin: 0 auto;
+	padding: 3vw 0 0;
+}
+.s1c1{
+	width: 100%;
+	padding: 6vw 0;
+}
+.s1c1 h1{
+	font-size: 5.5vw;
+	line-height: 2em;
+	letter-spacing: 1vw;
+	color: red;
+}
+.s1c1 label{
+	font-size: 5vw;
+	line-height: 1.5em;
+}
+.s1c1 span{
+	font-weight: bold;
+	margin: 0 4% 0 0;
+}
+.sect1Wrap .challengeContent li{
+	clear: left !important;
+	width: 100%;
+}
+.sect1Wrap .challengeContent li input{
+	width: 100%;
+}
+/*  SECT2 -----------------------------------------  */
+.sect2 ul{
+	width: 95%;
+	margin: 0 auto;
+	padding: 10vw 0 0;
+}
+.sect2 ul li{
+	background: #f8f3f3;
+	padding: 5vw 3%;
+	margin: 3vw 0;
+	border: 0.2vw solid #2b2b2d;
+	border-radius: 4vw;
+	cursor: pointer;
+	font-size: 5vw;
+	line-height: 2em;
+	overflow: hidden;
+}
+.s2Title{float: left;}
+.toggleIcon, .toggleIcon2{float: right;}
+.sect2 span{
+	clear: left;
+	clear: right;
+	color: red;
+	font-size: 4vw;
+
+}
+/*  SECT3 -----------------------------------------  */
+.sect3 .challengeWrap{
+	text-align: center;
+}
+.sect3 .challengeContent input{
+	width: 100%;
+}
+.sect3 .nameTitle{
+	width: 25%;
+	float: left;
+	padding: 2.1%;
+}
+.sect3 select{
+	padding: 2.1%;
+}
+.row2{overflow: hidden;}
+.sect3 .challengeContent .name{
+	width: 35%;
+	float: left;
+	margin: 0 0 0 2%;
+}
+.sect3 .sendButton:hover{
+	background: #6b696a;
+}
+
+@media only screen and (min-width: 768px){
+	.submenu{
+		padding-top: 120px;
+	}
+	.contactSubMenu{
+		width: 90%;
+		padding: 0 0 1%;
+	}
+	.contactSubMenu li{
+		width: 29.3%;
+		padding: 1.5% 1% 1%;
+		margin: 2%;
+		float: left;
+		font-size: 3vw;
+	}
+	/*  SECT1 -----------------------------------------  */
+	.sect1Content{
+		width: 50%;
+		padding: 3vw 3vw 0 0;
+		float: left;
+	}
+	.s1c1{
+		width: 100%;
+		padding: 6vw 0;
+	}
+	.s1c1 h1{
+		font-size: 4vw;
+		line-height: 2em;
+		letter-spacing: 1vw;
+		color: red;
+	}
+	.s1c1 label{
+		font-size: 2.8vw;
+		line-height: 1.5em;
+	}
+	.sect1Wrap .challengeWrap{
+		width: 50%;
+		float: left;
+	}
+	/*  SECT3 -----------------------------------------  */
+	.contactWrap{
+		padding-top: 70px;
+	}
+	.sect3 .challengeWrap{
+		text-align: center;
+	}
+	.sect3 .challengeContent input{
+		width: 90%;
+	}
+	.sect3 .nameTitle{
+		width: 23%;
+		float: left;
+		padding: 2.1%;
+	}
+	.row2{overflow: hidden;}
+	.sect3 .challengeContent .name{
+		width: 36.5%;
+		float: left;
+		margin: 0 0 0 2%;
+	}
+	/*  SECT2 -----------------------------------------  */
+	.sect2 ul{
+		width: 95%;
+		margin: 0 auto;
+		padding: 3vw 0 0;
+	}
+	.sect2 ul li{
+		padding: 3vw 3%;
+		margin: 3vw 0;
+		border: 0.2vw solid #2b2b2d;
+		border-radius: 4vw;
+		cursor: pointer;
+		font-size: 3vw;
+		line-height: 2em;
+	}
+	.sect2 span{
+		font-size: 2.5vw;
+	}
+}
+
+@media only screen and (min-width: 1024px){
+	.submenu{
+		width: 100%;
+		padding-top: 120px;
+	}
+	.contactSubMenu{
+		width: 900px;
+		padding: 0 0 1%;
+	}
+	.contactSubMenu li{
+		width: 29.3%;
+		padding: 1.5% 1% 1%;
+		margin: 2%;
+		float: left;
+		font-size: 22px;
+	}
+	/*  SECT1 -----------------------------------------  */
+	.sect1Wrap{
+		width: 900px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.sect1Content{
+		width: 50%;
+		padding: 20px 30px 0 0;
+		float: left;
+	}
+	.s1c1{
+		width: 100%;
+		padding: 30px 0;
+	}
+	.s1c1 h1{
+		font-size: 28px;
+		line-height: 2em;
+		letter-spacing: 5px;
+		color: red;
+	}
+	.s1c1 label{
+		font-size: 20px;
+		line-height: 1.5em;
+	}
+	.sect1Wrap .challengeWrap{
+		width: 50%;
+		float: left;
+	}
+	/*  SECT2 -----------------------------------------  */
+	.sect2 ul{
+		width: 900px;
+		margin: 0 auto;
+		padding: 30px 0 0;
+	}
+	.sect2 ul li{
+		padding: 3vw 3%;
+		margin: 15px 0;
+		border: 0.2vw solid #2b2b2d;
+		border-radius: 30px;
+		cursor: pointer;
+		font-size: 20px;
+		line-height: 2em;
+	}
+	.sect2 ul li:hover{
+		-webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.52);
+		-moz-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.52);
+		box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.52);
+	}
+	.sect2 span{
+		font-size: 16px;
+	}
+
+	/*  SECT3 -----------------------------------------  */
+	.sect3{
+		padding: 0 0 50px;
+	}
+}

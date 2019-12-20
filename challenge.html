@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Burn it up : กิจกรรม</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/HeaderFooter.css">
+	<link rel="stylesheet" type="text/css" href="css/challenge.css">
+	<link rel="stylesheet" type="text/css" href="css/pretty-checkbox.min.css">
+	<!-- CSS -->
+	<!-- Font -->
+	<link rel="stylesheet" type="text/css" href="fonts/fontface/fontface.css">
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+  <!-- DATEPICKER -->
+  <link href="css/datepicker.min.css" rel="stylesheet" type="text/css">
+  <script src="js/datepicker.min.js"></script>
+  <script src="js/datepicker.th.min.js"></script>
+</head>
+<body>
+  <div class="block"></div>
+  <header>
+    <div class="menuBar">
+  	  <div class="headL">
+  	  	<a href="index.html"><div class="logoIconL"></div></a>
+ 		<div class="menuIcon"></div>
+  	  </div><!-- headL -->
+	  <a href="index.html"><div class="logoIcon"></div></a>
+	  <div class="headR">
+ 		<div class="userIcon"></div>
+ 		<div class="search">
+ 		  <div class="searchIcon"></div>
+ 		  <input type="text" name="search" placeholder="ค้นหาแฟชั่น ข่าวสาร กิจกรรม สินค้า">
+ 		</div><!-- search -->
+  	  </div><!-- headR -->
+    </div><!-- menuBar -->
+    <div class="menuPosition">
+	  <ul class="menu">
+	  	<li class="menuLabel"><label>MENU</label></li>
+		<li><a href="index.html">เทรนด์&แฟชั่น</a></li>
+		<li><a href="news.html">ข่าวสาร</a></li>
+		<li><a class="active" href="challenge.html">กิจกรรม</a></li>
+		<li><a href="#">ออกแบบ</a></li>
+		<li><a href="#">สินค้า</a></li>
+		<li><a href="contact.html">ติดต่อเรา</a></li>
+	  </ul><!-- menu -->
+      <div id="userMenu" hidden>
+        <div class="userSubMenu">ข้อมูลส่วนตัว</div>
+        <div class="userSubMenu">ประวัติการเข้าร่วมกิจกรรม</div>
+        <div class="userSubMenu">การตั้งค่า</div>
+        <div class="userSubMenu">เกี่ยวกับเรา</div>
+        <a href="contact.html"><div class="userSubMenu">ติดต่อเรา</div></a>
+      </div><!-- userMenu -->
+	</div><!-- menuPosition -->
+  </header>
+
+  <!-- ---------------- START CONTENT ----------------  -->
+
+  <div class="emp2" style="padding: 1px; position: absolute; margin-top: 60vw;"></div>
+
+  <!-- BANNER ------------------------  -->
+  <section class="banner">
+  	<img src="images/challenge-banner-m.png">
+  </section>
+  <!-- RULE --------------------------  -->
+  <section class="rule">
+  	<div class="ruleWrap">
+	  <h1>กติกาการแข่งขัน</h1>
+	  <p>
+	  	1. ผู้เข้าร่วมการประกวดต้องอายุไม่เกิน 50 ปี ไม่จำกัดเพศ</p>
+		<p>2. ผู้เข้าร่วมประกวดรับจำนวนจำกัด 100 คน</p>
+		<p>3. ผู้เข้าร่วมจะต้องแต่งกายด้วยเสื้อแจ๊คเก็ต ด้วยรูปแบบสร้างสรรค์</p>
+		<p>4. ผู้เข้าร่วมต้องนำเสนอผลงานในรูปแบบของตนเอง หากพบว่ามีการทุจริตปรับแพ้ทันทีและไม่ให้เข้าร่วมในการแข่งครั้งต่อไป</p>
+		<p>5. ผู้เข้าร่วมต้องส่งผลงานในระยะเวลาที่กำหนดสามารถตรวจสอบระยะเวลาได้ที่หน้าเว็บไซต์ (ข้างล่างนี้)</p>
+		<p>6. ผู้เข้าร่วมสามารถแก้ไขผลงานได้ตลอด จนกว่าระยะเวลาสิ้นสุด
+	  </p>
+	  <h2>รางวัลสำหรับการประกวด</h2>
+	  <p>
+		1. รางวัลชนะเลิศอันดับที่ 1 จำนวน 2 รางวัล เงินรางวัล 5,000 บาท และ Gift voucher<br>
+		2. รางวัลชนะเลิศอันดับที่ 2 จำนวน 1 รางวัล เงินรางวัล 2,000 บาท<br>
+		3. รางวัลรองชนะเลิศอันดับที่ 3 จำนวน 1 รางวัลเสื้อจากทางเว็บไซต์ <a href="">ดูรูปภาพ</a>
+	  </p>
+	</div><!-- ruleWray -->
+  </section>
+
+  <!-- REGISTER --------------------------  -->
+  <section class="countdown">
+  	<h1>ส่งผลงานภายในระยะเวลา</h1>
+  	<ul class="countdownWrap">
+	  <li><div><label id="days"></label></div>วัน</li>
+	  <li><div><label id="hours"></label></div>ชั่วโมง</li>
+	  <li><div><label id="minutes"></label></div>นาที</li>
+	  <li><div><label id="seconds"></label></div>วินาที</li>
+	</ul>
+  </section>
+
+  <!-- CALLENGE --------------------------  -->
+  <section class="challenge">
+  	<div class="challengeWrap">
+      <div class="planeIcon"></div>
+      <h1>แบบฟอร์มผู้เข้าประกวด</h1>
+  	  <div class="challengeContent">
+  	  	<ul style="overflow: hidden;">
+  	  	  <li class="row1 col1">
+  	  	  	<h1><span>*</span>ชื่อเล่น</h1>
+  	  	  	<input type="text" name="nickname" min="1" maxlength="12" placeholder="1-12 ตัวอักษร" style="width: 50%;">
+  	  	  	<label><span>ห้าม</span>ใช้อักขระพิเศษ</label>
+  	  	  </li>
+  	  	  <li class="row1 col2">
+  	  	  	<h1><span>*</span>เพศ</h1>
+            <div class="checkboxWrap">
+  	  	  	<div class="pretty p-default p-round p-smooth">
+    		      <input type="radio" name="radio1">
+    		      <div class="state p-danger-o">
+    		          <label>ชาย</label>
+    		      </div>
+    		    </div>
+    		    <div class="pretty p-default p-round p-smooth">
+    		      <input type="radio" name="radio1">
+    		      <div class="state p-danger-o">
+    		          <label>หญิง</label>
+    		      </div>
+    		    </div>
+    		    <div class="pretty p-default p-round p-smooth">
+    		      <input type="radio" name="radio1">
+    		      <div class="state p-danger-o">
+    		          <label>อื่นๆ</label>
+    		      </div>
+    		    </div>
+            </div>
+  	  	  </li>
+  	  	  <li class="row2 col1">
+  	  	  	<h1><span>*</span>วันเกิด</h1>
+  	  	  	<input type='text' class='datepicker-here' data-language='th' placeholder="วว/ดด/ปปปป">
+  	  	  </li>
+  	  	  <li class="row2 col2">
+  	  	  	<h1><span>*</span>เบอร์โทรศัพท์มือถือ</h1>
+  	  	  	<input type="text" name="phone" min="10" maxlength="10" placeholder="XXX XXX XXXX">
+  	  	  </li>
+  	  	  <li class="row3 col1">
+  	  	  	<h1><span>*</span>อีเมล</h1>
+  	  	  	<input type="text" name="nickname" min="1" placeholder="example@hotmail.com">
+  	  	  </li>
+  	  	  <li class="row3 col2">
+  	  	  	<h1><span>*</span>ภาพถ่ายส่งเข้าประกวด</h1>
+            <div class="image-upload-wrap">
+              <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" style="height: 80px;">
+              <div class="drag-text">
+                <img src="images/uploadIcon.png">
+                <label>ขนาดไม่เกิน<span> 25MB</span><br>นามสกุลไฟล์<span> .jpg .png </span>เท่านั้น</label>
+              </div>
+            </div>
+            <div class="file-upload-content">
+              <img class="file-upload-image" src="#" alt="your image" />
+              <button type="button" onclick="removeUpload()" class="remove-image">&times;</button>
+            </div>
+  	  	  </li>
+  	  	</ul>
+  	  	<div class="row" >
+  	  	  <h1>แนวคิดในการแต่งกายพอสังเขป</h1>
+          <textarea rows="4" placeholder="เช่นสโลแกนในการแต่งกายหรือคอนเซ็ปแนวคิดในการแต่งกาย" maxlength="150"></textarea><br>
+  	  	  <span style="float: right;">ไม่เกิน 150 ตัวอักษร</span>
+  	  	</div>
+  	  	<div class="row">
+  	  	  <h1><span>*</span>ที่อยู่</h1>
+  	  	  <!-- <input type="text" name="nickname" minlength="5" maxlength="5" placeholder="รหัสไปรษณีย์">
+  	  	</div>
+  	  	<div class="row">
+  	  	  <h1><span>*</span>รายละเอียดที่อยู่</h1> -->
+          <textarea rows="4" placeholder="ระบุรายละเอียด หมู่บ้าน,ถนน,บ้านเลขที่,ตรอก,ซอย,อาคาร,แขวง/ตำบล,เขต/อำเภอ,จังหวัด,เลขไปรษณีย์" minlength="1"></textarea>
+  	  	</div><!-- row -->
+  	  </div><!-- challengeContent -->
+      <a href="#">อ่านเงื่อนไขและข้อตกลง?</a>
+      <ul class="check">
+        <li>
+          <div class="pretty p-default p-curve">
+            <input type="checkbox" />
+            <div class="state p-success">
+              <label>ฉัน<span>ยอมรับ</span>เงื่อนไขและข้อตกลง</label>
+            </div>
+          </div><!-- checkbox 1 -->
+        </li>
+        <li>
+          <div class="pretty p-default p-curve">
+            <input type="checkbox" />
+            <div class="state p-success">
+              <label>ฉันได้<span>อ่านกติกา</span>ครบถ้วนแล้ว</label>
+            </div>
+          </div><!-- checkbox 1 -->
+        </li>
+      </ul>
+      <button class="sendButton">ส่ง</button>
+  	</div><!-- challengeWrap -->
+  </section>
+
+  <!-- LAST --------------------------  -->
+  <section class="last">
+      <div class="headerSection">
+        <div class="elementHeaderSection1">กรรมการ</div>
+        <div class="elementHeaderSection2"></div>
+      </div><!-- headerSection -->
+    <div class="lastWrap">
+      <div class="lastContainer">
+        <img src="images/c1.jpg">
+        <div class="lastContent">ลูกเกด เมทินี</div>
+      </div><!-- lastContainer -->
+      <div class="lastContainer">
+        <img src="images/c2.jpg">
+        <div class="lastContent">แพร วทานิกา</div>
+      </div><!-- lastContainer -->
+      <div class="lastContainer">
+        <img src="images/c3.jpg">
+        <div class="lastContent">หมู อาซาว่า</div>
+      </div><!-- lastContainer -->
+    </div><!-- lastWrap -->
+  </section>
+
+  <!-- ---------------- END CONTENT ----------------  -->
+
+  <footer>
+  	<div class="footerBox">
+  	  <ul>
+	  	<a href="#"><li class="contactIcon" style="background-image: url(images/fb.png);"></li></a>
+	  	<a href="#"><li class="contactIcon" style="background-image: url(images/ig.png);"></li></a>
+	  	<a href="#"><li class="contactIcon" style="background-image: url(images/twitter.png);"></li></a>
+	  	<a href="#"><li class="contactIcon" style="background-image: url(images/youtube.png);"></li></a>
+	  	<a href="#"><li class="contactIcon" style="background-image: url(images/email.png);"></li></a>
+  	  </ul>
+  	</div><!-- footerBox 1 -->
+  	<div class="footerBox">
+  	  <h6>subscribe for new leter here</h6>
+  	  <div class="subscribe">
+  		<input type="email" name="email" placeholder="E-MAIL">
+  		<button class="submit">GO</button>
+  	  </div><!-- subscribe -->
+	</div><!-- footerBox 2 -->
+	<div class="footerBox">
+  	  <a href="index.html"><div class="logoIcon"></div></a>
+  	</div><!-- footerBox 3 -->
+  	<div class="footerBox2">
+  	  <span>&copy;2018 Burn it up. All Rights Reserved.</span>
+  	</div><!-- footerBox 4 -->
+  </footer>
+
+
+  <script src="js/HeaderFooter.js"></script>
+  <script src="js/all.js"></script>
+  <script src="js/countdown.js"></script>
+  <script src="js/uploadimages.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/uploadimages.css">
+  <link rel="stylesheet" type="text/css" href="css/menuUser.css">
+
+
+</body>
+</html>

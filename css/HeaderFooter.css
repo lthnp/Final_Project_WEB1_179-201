@@ -1,0 +1,471 @@
+/*none*/
+.logoIconL, .search input{
+	display: none;
+}
+/*icon*/
+.logoIcon{
+	width: 80px;
+	height: 78px;
+	background-image: url(../images/logoS.png);
+	background-position: 10px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	cursor: pointer;
+}
+.menuIcon{
+	background-image: url(../images/menu.png);
+}
+.searchIcon{
+	background-size: 120%;
+	background-image: url(../images/search.png);
+	float: right;
+	margin-top: -2px;
+	position: absolute;
+	top: 5px;
+	right: 0;
+	z-index: 6;
+}
+.userIcon{
+	background-size: cover;
+	background-image: url(../images/user.png);
+	float: right;
+	margin-left: 10px;
+}
+.menuIcon, .searchIcon, .userIcon{
+	width: 22px;
+	height: 22px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+body{
+	margin: 0 auto;
+}
+.block{
+	display: none;
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 4;
+}
+/*header*/
+header{
+	width: 100%;
+	background: #2f2e2e;
+	position: fixed;
+	z-index: 5;
+	-webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.2);
+}
+.menuBar{
+	width: 100%;
+	height: 40px;
+	position: relative;
+	z-index: 9;
+	-webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.32);
+	-moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.32);
+	box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.32);
+}
+.headL{
+	height: 100%;
+	padding: 10px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.headR{
+	height: 100%;
+	padding: 10px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.search{
+	display: block;
+	width: 230px;
+	height: 30px;
+	float: right;
+	position: relative;
+	margin-top: -5px;
+}
+.search input{
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+	background: #6b696a;
+	color: #b7b7b7;
+	float: right;
+	/*position: absolute !important;
+	top: 0;
+	right: : 0;*/
+	padding: 5px 3px 5px 10px;
+	font-size: 14px;
+}
+.search input:focus{
+	background: #000;
+	color: #fff;
+}
+.menu, #userMenu{
+	display: none;
+	width: 100%;
+	background: #2f2e2e;
+	padding-bottom: 10px;
+	position: relative;
+	z-index: 8;
+	font-weight: bold;
+}
+.menu li{
+	padding: 20px;
+	text-align: left;
+}
+.menuLabel{
+	border-bottom: 1px solid #444;
+}
+.menu label{
+    font-family: 'sukhumvit_setbold';
+}
+.menu a, .menu label{
+	color: #6b696a;
+}
+.menu a:hover,.menu a.active{
+	transition: .1s ease-in;
+	color: #fff;
+}
+/*footer*/
+footer{
+	width: 100%;
+	height: 225px;
+	background: #2f2e2e;
+	text-align: center;
+	padding-top: 25px;
+}
+.contactIcon{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-size: cover;
+	margin: 0 5px;
+}
+footer h6{
+    font-family: 'THSarabunNew';
+    font-size: 21px;
+	color: #fff;
+	letter-spacing: 0.6px;
+	font-weight: lighter;
+	margin: 12px 0 3px;
+	text-transform: uppercase;
+}
+footer ul{
+	display: block;
+}
+.subscribe{
+	width: 250px;
+	height: 25px;
+	margin: 0 auto 10px;
+	position: relative;
+}
+.subscribe input{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	padding: 5px 10px;
+	font-size: 16px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.submit{
+	width: 60px;
+	height: 23px;
+	border-radius: 20px;
+	background: #000;
+    font-family: 'modern_no._20regular';
+    color: #fff;
+	font-size: 17px;
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	cursor: pointer;
+}
+.submit:hover{
+	background: red;
+	transition: 0.1s ease-in-out;
+}
+footer .logoIcon{
+	position: relative;
+	z-index: 0;
+}
+footer span{
+	font-size: 14px;
+	color: #fff;
+	white-space: 0.1px;
+}
+
+@media only screen and (min-width: 768px){
+	/*none*/
+	header .logoIcon, .menuIcon{
+		display: none;
+	}
+	.logoIconL{
+		display: block;
+		width: 170px;
+		height: 50px;
+		background-image: url(../images/logoL.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		position: relative;
+		z-index: 10;
+		cursor: pointer;
+	}
+	.searchIcon, .userIcon{
+		width: 37px;
+		height: 37px;
+		background-size: cover;
+	}
+	/*header*/
+	header{
+		-webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.52);
+		-moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.52);
+		box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.52);
+	}
+	.menuBar{
+		height: 65px;
+		-webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0);
+		-moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0);
+		box-shadow: 0px 0px 19px 0px rgba(0,0,0,0);
+	}
+	.headL{
+		padding-left: 20px;
+		margin-top: -1px;
+	}
+	.headR{
+		padding: 12px 20px 12px 0;
+	}
+	.search{
+		display: block;
+		width: 300px;
+		height: 40px;
+		float: right;
+		position: relative;
+		margin-right: 10px;
+		margin-top: 0;
+	}
+	.search input{
+		display: block;
+		width: 300px;
+		height: 40px;
+		border-radius: 30px;
+		background: #6b696a;
+		color: #b7b7b7;
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 7px 15px;
+		font-size: 16px;
+	}
+	.search .searchIcon{
+		position: absolute;
+		z-index: 5;
+		right: 12px;
+		top: 3px;
+	}
+	.menuPosition{
+		width: 100%;
+		height: 55px;
+		position: relative;
+		z-index: 8;
+		background: #fff;
+	}
+	.menu{
+		max-width: 731px;
+		display: block;
+		height: 55px;
+		background: #fff;
+		padding-bottom: 10px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.menuLabel{display: none;}
+	.menu li{
+		padding: 18px 3.5% 0;
+		float: left;
+		font-size: 20px;
+	}
+	.menu label{
+	    font-family: 'sukhumvit_setbold';
+	}
+	.menu a, .menu label{
+		color: #00010d;
+	}
+	.menu a:hover, .menu a.active:hover{
+		transition: .1s ease-in;
+		color: red;
+	}
+	.menu a.active{
+		transition: .1s ease-in;
+		color: #00010d;
+		padding-bottom: 10px;
+		border-bottom: 4px solid red;
+	}
+	/*footer*/
+	footer{
+		width: 100%;
+		height: 290px;
+		background: #2f2e2e;
+		text-align: center;
+		padding-top: 35px;
+	}
+	.contactIcon{
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background-size: cover;
+		margin: 0 7px;
+	}
+	footer h6{
+	    font-family: 'THSarabunNew';
+	    font-size: 25px;
+		color: #fff;
+		letter-spacing: 0.6px;
+		font-weight: lighter;
+		margin: 25px 0 3px;
+		text-transform: uppercase;
+	}
+	footer ul{
+		display: block;
+	}
+	.subscribe{
+		width: 300px;
+		height: 32px;
+		margin: 0 auto 24px;
+		position: relative;
+	}
+	.subscribe input{
+		width: 100%;
+		height: 100%;
+		border-radius: 20px;
+		padding: 7px 15px;
+		font-size: 20px;
+	}
+	.submit{
+		width: 74px;
+		height: 28px;
+		font-size: 20px;
+		top: 2px;
+		right: 2px;
+	}
+	footer .logoIcon{
+		width: 72px;
+		height: 67px;
+		background-position: 0;
+		background-image: url(../images/logoS2.png);
+		position: relative;
+		z-index: 0;
+		margin-bottom: 23px;
+	}
+	footer span{
+		font-size: 16px;
+		color: #fff;
+		white-space: 0.1px;
+	}
+}
+@media only screen and (min-width: 1024px){
+	.footerBox{
+		width: 33.33%;
+		float: right;
+		padding: 0 20px;
+	}
+	.footerBox ul{
+		margin-top: 30px;
+		text-align: right;
+	}
+	.footerBox2{
+		clear: right;
+		text-align: center;
+	}
+	footer{
+		width: 100%;
+		height: 120px;
+		background: #2f2e2e;
+		text-align: center;
+		padding-top: 15px;
+	}
+	.contactIcon{
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background-size: cover;
+		margin: 0 7px;
+	}
+	.contactIcon:hover{
+		margin-top: -3px;
+		transition: 0.2s;
+	}
+	footer h6{
+	    font-family: 'THSarabunNew';
+	    font-size: 25px;
+		color: #fff;
+		letter-spacing: 0.6px;
+		font-weight: lighter;
+		margin: 0 0 3px;
+		text-transform: uppercase;
+	}
+	footer ul{
+		display: block;
+	}
+	.subscribe{
+		width: 300px;
+		height: 32px;
+		margin: 0 auto 20px;
+		position: relative;
+	}
+	.subscribe input{
+		width: 100%;
+		height: 100%;
+		border-radius: 20px;
+		padding: 7px 15px;
+		font-size: 20px;
+	}
+	.submit{
+		width: 74px;
+		height: 28px;
+		font-size: 20px;
+		top: 2px;
+		right: 2px;
+	}
+	footer .logoIcon{
+		width: 185px;
+		height: 55px;
+		background-position: 0;
+		background-image: url(../images/logoL2.png);
+		margin: 0;
+		position: relative;
+		z-index: 0;
+		margin-top: 20px;
+	}
+	footer span{
+		font-size: 16px;
+		color: #fff;
+		white-space: 0.1px;
+	}
+}
+
+.search input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b7b7b7;
+  opacity: 1; /* Firefox */
+}
+
+.search input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #b7b7b7;
+}
+
+.search input::-ms-input-placeholder { /* Microsoft Edge */
+  color: #b7b7b7;
+}
+
+body div a img:last{
+	display: none;
+}

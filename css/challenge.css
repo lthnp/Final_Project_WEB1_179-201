@@ -1,0 +1,660 @@
+body{
+	background: #ede6e6;
+	position: relative;
+}
+textarea{
+	resize: none;
+	overflow: hidden;
+}
+/*  BANNER -----------------------------------------  */
+.banner{
+	width: 100%;
+	height: 165vw;
+	background: linear-gradient(to bottom, rgba(255,30,0,1) 0%, rgba(52,19,19,1) 100%);
+	background-size: 100%;
+	background-position: center;
+	text-align: center;
+	padding: 40px 0 0;
+}
+.banner img{
+	height: 86%;
+	margin: 13% 0;
+	-webkit-box-shadow: 0px 9px 20px -4px rgba(0,0,0,0.52);
+	-moz-box-shadow: 0px 9px 20px -4px rgba(0,0,0,0.52);
+	box-shadow: 0px 9px 20px -4px rgba(0,0,0,0.52);
+}
+/*  RULE -----------------------------------------  */
+.rule{
+	width: 100%;
+	margin: 0 auto;
+}
+.ruleWrap{
+	width: 90%;
+	margin: 5vw auto;
+	background: #2b2b2d;
+	border-radius: 8vw;
+	padding: 4vw;
+	background-image: url(../images/challengeBGBox.jpg);
+	background-size: cover;
+}
+.ruleWrap h1{
+	color: #be1c18;
+	text-align: center;
+	margin-bottom: 3.5vw;
+	font-size: 6vw;
+	letter-spacing: 0.5vw;
+}
+.ruleWrap h2{
+	color: #be1c18;
+	text-align: center;
+	margin: 0 0 3.5vw;
+	padding-top: 4vw;
+	font-size: 4vw;
+	letter-spacing: 0.5vw;
+}
+.ruleWrap p, .ruleWrap p a{
+	font-family: 'THSarabunNew';
+	color: #fff;
+	margin-bottom: 4vw;
+	font-size: 5.5vw;
+	letter-spacing: 0.25vw;
+	line-height: 1.3em;
+}
+.ruleWrap p a{
+	color: #111 !important;
+	text-decoration: underline;
+	font-weight: bold;
+}
+/*  COUNTDOWN -----------------------------------------  */
+.countdown{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.countdown h1{
+	color: #f10505;
+	margin: 8vw 0 0;
+	font-size: 7vw;
+	letter-spacing: 0.4vw;
+}
+.countdownWrap{
+	width: 95%;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+.countdownWrap li{
+	width: 22.7%;
+	float: left;
+	padding: 1vw 0;
+	font-size: 5vw;
+	margin: 1vw;
+}
+.countdownWrap li div{
+	width: 100%;
+	float: left;
+	border-radius: 3vw;
+	margin: 2vw 0;
+	padding: 4vw 0;
+	font-size: 10vw;
+	background: linear-gradient(to bottom, rgba(48,48,48,1) 0%, rgba(0,0,0,1) 100%);
+}
+.countdownWrap label{
+	max-width: 20%;
+	text-align: center;
+	color: #fff;
+	padding: 5vw 0;
+}
+/*  CHALLENGE -----------------------------------------  */
+.challenge{
+	width: 100%;
+	margin: 0 auto;
+}
+.challengeWrap{
+	width: 90%;
+	margin: 5vw auto;
+	background: #2b2b2d;
+	border-radius: 8vw;
+	padding: 6vw;
+	text-align: center;
+}
+.challengeWrap h1{
+	color: #fff;
+	font-size: 5vw;
+	letter-spacing: 1vw;
+	line-height: 2em;
+	padding: 3vw 0 0;
+}
+.planeIcon{
+	width: 20%;
+	height: 15vw;
+	background-image: url(../images/planeIcon.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.checkboxWrap{
+	padding: 2vw 0;
+}
+.challengeContent{
+	width: 100%;
+	text-align: left;
+}
+.challengeContent input, select, .challengeContent textarea{
+	width: 80%;
+	border-radius: 10vw;
+	background: #ede6e6;
+	padding: 2vw 2.5vw 1.5vw;
+	font-size: 3.5vw;
+	box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.6);
+}
+.challengeContent textarea{
+	width: 100%;
+	border-radius: 5vw;
+}
+.challengeContent h1, .challengeContent h1{
+	font-size: 4.5vw;
+	letter-spacing: 0.5vw;
+	padding: 3.5vw 0 1vw;
+	overflow: hidden;
+	line-height: 2em;
+}
+.challengeContent label{
+	color: #fff;
+	font-size: 4vw;
+}
+.challengeContent span{
+	font-size: 4vw;
+	color: red;
+}
+.challengeContent li{
+	position: relative;
+}
+.state label{
+	font-size: 4vw !important;
+	padding: 0;
+}
+.challengeWrap a{
+	color: #686868;
+	text-decoration: underline;
+	font-size: 4vw;
+	line-height: 3em;
+}
+.check{
+	width: 70%;
+	margin: 0 auto;
+}
+.check li{
+	color: #fff;
+	line-height: 3em;
+}
+.check label{
+	color: #fff;
+	font-size: 4vw;
+	margin: 0;
+}
+.check span{
+	color: #fff;
+	text-decoration: underline;
+}
+.sendButton{
+	background: #1a1a1c;
+	color: #fff;
+	transition: 0.2s;
+	font-size: 4vw;
+	margin: 4vw 0 0;
+	padding: 1vw 10vw;
+	border-radius: 20vw;
+	cursor: pointer;
+}
+/*  LAST ----------------------------------------------  */
+.headerSection{
+	width: 100%;
+	padding: 3.5vw 2.5vw 3vw;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+.elementHeaderSection1{
+	max-width: 305px;
+	width: 30%;
+	position: relative;
+	z-index: 1;
+	margin: 0 auto;
+	padding: 2vw 2vw 1.5vw;
+	font-size: 6vw;
+	text-align: center;
+	color: #000;
+	border-radius: 20vw;
+	background: #ede6e6;
+}
+.elementHeaderSection2{
+	width: 95%;
+	height: 58%;
+	border-bottom: 2px solid red;
+	position: absolute;
+	top: 0;
+	margin: 0 auto;
+}
+.last{
+	width: 100%;
+	margin: 0 auto;
+}
+.lastWrap{
+	width: 100%;
+	margin: 0 auto;
+}
+.lastContainer{
+	width: 80%;
+	height: 95.5vw;
+	background-image: url(../images/cBG.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 100%;
+	margin: 0 auto 5vw;
+}
+.lastContainer img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.lastContent{
+	color: #fff;
+	line-height: 2.2em;
+	text-align: center;
+	font-size: 8vw;
+}
+
+@media only screen and (min-width: 768px){
+	/*  BANNER -----------------------------------------  */
+	.banner{
+		width: 100%;
+		height: 100vh;
+		background: linear-gradient(to bottom, rgba(255,30,0,1) 0%, rgba(52,19,19,1) 100%);
+		padding: 120px 0 0;
+	}
+	.banner img{
+		height: 90%;
+		margin: 4vh 0;
+		content: url("../images/challenge-banner-t.png");
+	}
+	/*  RULE -----------------------------------------  */
+	.ruleWrap{
+		width: 90%;
+	}
+	.ruleWrap h1{
+		margin-bottom: 3.5vw;
+		font-size: 5.5vw;
+	}
+	.ruleWrap h2{
+		margin: 0 0 3.5vw;
+		padding-top: 3vw;
+		font-size: 4vw;
+	}
+	.ruleWrap p, .ruleWrap p a{
+		margin-bottom: 3vw;
+		font-size: 4.7vw;
+		line-height: 1.2em;
+	}
+	/*  COUNTDOWN -----------------------------------------  */
+	.countdown h1{
+		font-size: 6vw;
+	}
+	/*  CHALLENGE -----------------------------------------  */
+	.challenge{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.challengeWrap{
+		width: 90%;
+		margin: 5vw auto 0;
+		background: #2b2b2d;
+		border-radius: 8vw;
+		padding: 6vw 4vw;
+		text-align: center;
+	}
+	.challengeWrap h1{
+		color: #fff;
+		font-size: 3.5vw;
+		letter-spacing: 1vw;
+		line-height: 2em;
+		padding: 1vw 0 0;
+	}
+	.planeIcon{
+		width: 15%;
+		height: 15vw;
+		background-image: url(../images/planeIcon.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin: 0 auto;
+	}
+	.checkboxWrap{
+		padding: 1.5vw 0;
+	}
+	.challengeContent{
+		width: 100%;
+		text-align: left;
+	}
+	.challengeContent input, select, .challengeContent textarea{
+		width: 80%;
+		border-radius: 10vw;
+		background: #ede6e6;
+		padding: 1vw 2.5vw 0.8vw;
+		font-size: 2.1vw;
+		box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.6);
+	}
+	.challengeContent textarea{
+		width: 100%;
+		border-radius: 3vw;
+	}
+	.challengeContent h1{
+		font-size: 2.5vw;
+		letter-spacing: 0.5vw;
+		padding: 3.5vw 0 1vw;
+		overflow: hidden;
+		line-height: 2em;
+	}
+	.challengeContent label{
+		color: #fff;
+		font-size: 2vw;
+	}
+	.challengeContent span{
+		font-size: 2vw;
+		color: red;
+	}
+	.challengeContent li{
+		width: 50%;
+		position: relative;
+		float: left;
+	}
+	.state label{
+		font-size: 2vw !important;
+		padding: 0;
+	}
+	.challengeWrap a{
+		color: #686868;
+		text-decoration: underline;
+		font-size: 2.3vw;
+		line-height: 3em;
+	}
+	.check{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.check label{
+		font-size: 2vw;
+	}
+	.sendButton{
+		background: #1a1a1c;
+		color: #fff;
+		transition: 0.2s;
+		font-size: 3vw;
+		margin: 3vw 0 0;
+		padding: 1vw 10vw;
+		border-radius: 20vw;
+	}
+	/*  LAST ----------------------------------------------  */
+	.elementHeaderSection1{
+		width: 50%;
+		padding: 15px 40px 8px;
+		font-size: 39px;
+		letter-spacing: 0.2px;
+	}
+	.elementHeaderSection2{
+		width: 95%;
+		height: 58%;
+		border-bottom: 2px solid red;
+		position: absolute;
+		top: 0;
+		margin: 0 auto;
+	}
+	.last{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.lastWrap{
+		width: 90%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.lastContainer{
+		width: 31.2%;
+		height: 34vw;
+		background-image: url(../images/cBG.jpg);
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		background-size: 100%;
+		margin: 0 1% 5vw;
+		float: left;
+	}
+	.lastContainer img{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.lastContent{
+		color: #fff;
+		line-height: 2.2em;
+		text-align: center;
+		font-size: 2.7vw;
+	}
+}
+
+@media only screen and (min-width: 1024px){
+	/*  BANNER -----------------------------------------  */
+	.banner{
+		width: 100%;
+		height: 100vh;
+		background: linear-gradient(to bottom, rgba(255,30,0,1) 0%, rgba(52,19,19,1) 100%);
+	}
+	.banner img{
+		height: 90%;
+		margin: 2.7vw 0;
+		content: url("../images/challenge-banner-d.png");
+	}
+	/*  RULE -----------------------------------------  */
+	.rulue{
+		width: 100%;
+	}
+	.ruleWrap{
+		width: 920px;
+		margin: 50px auto;
+		border-radius: 60px;
+		padding: 4%;
+	}
+	.ruleWrap h1{
+		margin-bottom: 25px;
+		font-size: 36px;
+	}
+	.ruleWrap h2{
+		margin: 0 0 25px;
+		padding-top: 20px;
+		font-size: 26px;
+		letter-spacing: 3px;
+	}
+	.ruleWrap p, .ruleWrap p a{
+		margin-bottom: 20px;
+		font-size: 26px;
+		letter-spacing: 1px;
+		line-height: 1.2em;
+	}
+	.ruleWrap p a{
+		color: #000 !important;
+	}
+	/*  COUNTDOWN -----------------------------------------  */
+	.countdown h1{
+		color: #f10505;
+		margin: 30px 0 0;
+		font-size: 40px;
+		letter-spacing: 3px;
+	}
+	.countdownWrap{
+		width: 700px;
+		padding: 0;
+	}
+	.countdownWrap li{
+		width: 23%;
+		float: left;
+		padding: 0;
+		font-size: 30px;
+		margin: 1%;
+	}
+	.countdownWrap li div{
+		border-radius: 3vw;
+		margin: 15px 0;
+		padding: 35px 0;
+		font-size: 80px;
+	}
+	.countdownWrap label{
+		padding: 35px 0;
+	}
+	.challengeWrap a{
+		color: #686868;
+		text-decoration: underline;
+		font-size: 4vw;
+		line-height: 3em;
+	}
+	/*  CHALLENGE -----------------------------------------  */
+	.challenge{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.challengeWrap{
+		width: 920px;
+		margin: 50px auto 0;
+		border-radius: 60px;
+		padding: 30px 30px;
+	}
+	.challengeWrap h1{
+		color: #fff;
+		font-size: 26px;
+		letter-spacing: 5px;
+		line-height: 2em;
+		padding: 15px 0 0;
+	}
+	.planeIcon{
+		width: 55px;
+		height: 55px;
+	}
+	.checkboxWrap{
+		padding: 18px 0;
+	}
+	.challengeContent{
+		width: 100%;
+		text-align: left;
+		padding: 10px 0;
+	}
+	.challengeContent input, select, .challengeContent textarea{
+		width: 80%;
+		border-radius: 10vw;
+		background: #ede6e6;
+		padding: 10px 15px 7px;
+		font-size: 20px;
+		box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.6);
+	}
+	.challengeContent textarea{
+		width: 100%;
+		border-radius: 30px;
+	}
+	.challengeContent h1{
+		font-size: 20px;
+		letter-spacing: 5px;
+		padding: 30px 0 10px;
+		overflow: hidden;
+		line-height: 2em;
+	}
+	.challengeContent label{
+		font-size: 18px;
+	}
+	.challengeContent span{
+		font-size: 18px;
+	}
+	.challengeContent li{
+		width: 50%;
+		position: relative;
+		float: left;
+	}
+	.state label{
+		font-size: 20px !important;
+		padding: 0;
+	}
+	.challengeWrap a{
+		color: #686868;
+		text-decoration: underline;
+		font-size: 20px;
+		line-height: 3em;
+	}
+	.check{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.check label{
+		font-size: 20px;
+	}
+	.sendButton{
+		transition: 0.2s;
+		font-size: 24px;
+		margin: 20px 0 0;
+		padding: 15px 100px;
+		border-radius: 20vw;
+	}
+	.sendButton:hover{
+		background: red;
+
+	}
+	/*  LAST ----------------------------------------------  */
+	.elementHeaderSection1{
+		max-width: 230px;
+		padding: 15px 10px 8px;
+	}
+	.elementHeaderSection2{
+		width: 93%;
+		height: 58%;
+		border-bottom: 2px solid red;
+		position: absolute;
+		top: 0;
+	}
+	.last{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.lastWrap{
+		width: 900px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.lastContainer{
+		width: 31.2%;
+		height: 350px;
+		background-image: url(../images/cBG.jpg);
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		background-size: 100%;
+		margin: 0 1% 4%;
+		float: left;
+	}
+	.lastContainer img{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.lastContent{
+		color: #fff;
+		line-height: 2.2em;
+		text-align: center;
+		font-size: 2.7vw;
+	}
+}
+.challenge::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #2b2b2d;
+  opacity: 1; /* Firefox */
+}
+
+.challenge:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #2b2b2d;
+}
+
+.challenge::-ms-input-placeholder { /* Microsoft Edge */
+  color: #2b2b2d;
+}

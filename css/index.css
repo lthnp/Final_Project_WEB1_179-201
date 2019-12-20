@@ -1,0 +1,441 @@
+.enter{display: none;}
+.headerSection{
+	width: 100%;
+	padding: 3.5vw 2.5vw 3vw;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+.elementHeaderSection1{
+	max-width: 305px;
+	width: 50%;
+	position: relative;
+	z-index: 1;
+	margin: 0 auto;
+	padding: 2vw 5vw 1.5vw;
+	font-size: 6vw;
+	text-align: center;
+	color: #fff;
+	border-radius: 20vw;
+	background: linear-gradient(to bottom, rgba(255,30,0,1) 0%, rgba(133,0,32,1) 100%);
+}
+.elementHeaderSection2{
+	width: 95%;
+	height: 58%;
+	border-bottom: 2px solid red;
+	position: absolute;
+	top: 0;
+	margin: 0 auto;
+}
+/*  BANNER ---------------------------------------------------  */
+.banner{
+	width: 100%;
+	height: 165vw;
+	background: #fff;
+	background-image: url(../images/index-banner-t1.png);
+	background-size: 120vw;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	padding: 30% 2vw 0 2vh;
+	text-align: center;
+}
+.banner .bannerText{
+	text-align: left;
+	font-family: 'sukhumvit_setthin';
+	font-size: 8vw;
+	line-height: 11vw;
+}
+.banner .bannerSubText{
+	padding: 1vh 1vw 2vh 2vw;
+	font-family: 'third_rail_-_demoregular';
+	font-size: 10vw;
+	background: linear-gradient(to bottom, rgba(255,30,0,1) 0%, rgba(36,4,0,1) 86%, rgba(0,0,0,1) 100%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.banner .bannerButton{
+	padding: 1.5vw 5vw 0.2vw;
+	background: #000;
+	border-radius: 20vw;
+	color: #fff;
+	font-size: 5vw;
+	margin-top: 3%;
+	letter-spacing: 0.8vw;
+	cursor: pointer;
+	transition: 0.3s ease-in;
+}
+.banner .bannerButton:hover{
+	background-color: red;
+}
+/*  UPDATE --------------------------------------------------  */
+.update{
+	width: 100%;
+	background: #fff;
+	text-align: center;
+}
+.updateBody1{
+	width: 100%;
+	height: 84.375vw;
+	background-image: url(../images/index-updateBG-m.jpg);
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-size: 100vw;
+	text-align: left;
+	padding: 20vw 0 0 5vw;
+}
+.updateBody1 h1{
+	color: #fff;
+	font-size: 6.5vw;
+	margin-bottom: 2vw;
+}
+.updateBody1 h2{
+	font-family: 'third_rail_-_demoregular';
+	font-size: 12.5vw;
+	font-weight: normal;
+	padding-left: 0.7vw;
+	background: linear-gradient(to bottom, rgba(255,30,0,1) 0%, rgba(60,0,16,1) 100%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.updateBody2{
+	width: 100%;
+	height: auto;
+	padding: 1%;
+	text-align: center;
+}
+.updateContent{
+	float: left;
+	width: 48%;
+	margin: 0 1% 5vw;
+}
+.updateContent a img{
+	width: 100%;
+	cursor: pointer;
+}
+.updateContent a button{
+	margin-top: -0.2vw;
+	padding: 0.2vw 0;
+	width: 70%;
+	background: #fff;
+	font-size: 3.8vw;
+	border-radius: 20vw;
+	-webkit-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.57);
+	box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.57);
+	cursor: pointer;
+}
+.allButton{
+	background: #1d1e21;
+	padding: 1.8vw 8vw 1vw;
+	border-radius: 20vw;
+	font-size: 3.8vw;
+	color: #fff;
+	margin: 1vw 0 4vw;
+	letter-spacing: 1vw;
+	-webkit-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.57);
+	box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.57);
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+.allButton:hover{
+	background: #6b696a;
+}
+.updateHR{
+	width: 100%;
+	height: 1.2vh;
+	background: #211d1d;
+	margin: 1vh 0 0 0;
+}
+/*  CHALLENGE -----------------------------------------------  */
+.challenge, .challenge img{
+	width: 100%;
+}
+/*  PRODUCT -------------------------------------------------  */
+.product{
+	width: 100%;
+}
+/*  RUNWAY --------------------------------------------------  */
+.runway{
+	width: 100%;
+	background: #ede6e6;
+	text-align: center;
+}
+.runwayWrap{width: 100%;}
+.runway .headerSection{
+	padding-bottom: 2vw;
+}
+.runway .elementHeaderSection1{
+	max-width: 100%;
+	width: 100%;
+    font-family: 'modern_no._20regular';
+    font-size: 4.1vw;
+	letter-spacing: 0.3vw;
+	padding: 3vw 4vw;
+	text-transform: uppercase;
+}
+.runway .elementHeaderSection1 span{
+	font-family: 'third_rail_-_demoregular';
+	color: #fff;
+}
+.runway .elementHeaderSection2{
+	width: 100%;
+	height: 0.1px;
+	position: relative;
+	margin: 1vw 0 0;
+}
+.runway p{
+    font-family: 'THSarabunNew';
+	color: #8d8d8d;
+	text-align: left;
+	margin: 0 0 2vw 3vw;
+}
+.runway img:hover{
+	position: relative;
+	z-index: 1;
+	-webkit-box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.57);
+	box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.57);
+}
+.runwayImg, .runwayImgEX1, .runwayImgEX2{
+	display: inline;
+	width: 31%;
+	content: width(32.5%);
+	margin: 0 -0.6%;
+	margin-bottom: 3vw;
+	cursor: pointer;
+}
+.runwayImgEX1, .runwayImgEX2{
+	display: none;
+}
+
+@media only screen and (min-width: 768px){
+	/*  BANNER ----------------------------------------------- */
+	.banner{
+		width: 100%;
+		height: 100vh;
+		background-image: url(../images/index-banner-t1.png);
+		background-size: 100vw;
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		padding: 20% 12vw 0 12vw;
+		text-align: center;
+	}
+	.banner .bannerText{
+		font-size: 6vw;
+		line-height: 9vw;
+	}
+	.banner .bannerSubText{
+		padding: 1vh 1vw 2vh 2vw;
+		font-size: 8vw;
+	}
+	.banner .bannerButton{
+		padding: 1vh 5vw 0;
+		background: #000;
+		border-radius: 20vw;
+		color: #fff;
+		font-size: 4.5vw;
+		margin-top: 3%;
+		letter-spacing: 0.8vw;
+	}
+	.banner .bannerButton:hover{
+		background-color: red;
+	}
+	/*  UPDATE --------------------------------------------------  */
+	.updateBody1{
+		height: 63.15vw;
+		background-image: url(../images/index-updateBG-t.jpg);
+		padding: 16vw 0 0 5vw;
+	}
+	.updateBody1 h1{
+		font-size: 6vw;
+		margin-bottom: 1vw;
+	}
+	.updateBody1 h2{
+		font-size: 12vw;
+	}
+	.updateContent{
+		width: 31.33%;
+		margin: 0 1% 3vw;
+	}
+	.updateContent a img{
+		width: 100%;
+		cursor: pointer;
+	}
+	.updateContent a button{
+		margin-top: -0.2vw;
+		padding: 0.3vw 0;
+		font-size: 2.5vw;
+	}
+	.allButton{
+		padding: 1vw 5vw 0.5vw;
+		font-size: 2.8vw;
+		-webkit-box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.57);
+		-moz-box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.57);
+		box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.57);
+	}
+	.updateHR{
+		margin-bottom: 2vw;
+	}
+
+	/*  RUNWAY --------------------------------------------------  */
+	.runway .elementHeaderSection1{
+	    font-size: 4.1vw;
+		padding: 2vw 4vw;
+	}
+	.runway .elementHeaderSection2{
+		width: 100%;
+		height: 0.1px;
+		position: relative;
+		margin: 1vw 0 0;
+	}
+	.runway p{
+		font-size: 3vw;
+	}
+	.runwayImg, .runwayImgEX1{
+		display: inline;
+		width: 24%;
+		margin: 0 -0.4%;
+		margin-bottom: 3vw;
+	}
+}
+
+@media only screen and (min-width: 1024px){
+	/*  BANNER -----------------------------------------------  */
+	.enter{display: block;}
+	.banner{
+		width: 100%;
+		height: 100vh;
+		background-image: url(../images/index-banner-d2.png);
+		background-size: 220vh;
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		padding: 30vh 10vw 0 10vw;
+		text-align: right;
+	}
+	.banner .bannerText{
+		width: 100%;
+		position: bottom;
+		float: right;
+		text-align: right;
+		font-size: 6.5vh;
+		line-height: 11.5vh;
+		background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 48%, rgba(0,0,0,1) 49%, rgba(255,255,255,1) 52%, rgba(255,255,255,1) 100%);
+		-webkit-background-clip: text;
+	  	-webkit-text-fill-color: transparent;
+	}
+	.banner .bannerSubText{
+		font-size: 10vh;
+		background: linear-gradient(to bottom, rgba(255,30,0,1) 0%, rgba(36,4,0,1) 86%, rgba(0,0,0,1) 100%);
+		-webkit-background-clip: text;
+	  	-webkit-text-fill-color: transparent;
+	  	font-weight: normal;
+	}
+	.banner .bannerButton{
+		clear: right;
+		padding: .8vw 3vw 0.5vw;
+		background: #000;
+		border-radius: 20vw;
+		color: #fff;
+		font-size: 3.5vh;
+		margin-top: 5%;
+		letter-spacing: 0.5vw;
+	}
+	.banner .bannerButton:hover{
+		background-color: red;
+	}
+	/*  UPDATE --------------------------------------------------  */
+	.update{
+		position: relative;
+	}
+	.updateBody1{
+		height: 74.22vw;
+		background-image: url(../images/index-updateBG-d.jpg);
+		background-size: cover;
+		padding: 9vw 0 0 5vw;
+	}
+	.updateBody1 h1{
+		font-size: 3vw;
+		margin-bottom: 0.3vw;
+	}
+	.updateBody1 h2{
+		font-size: 7vw;
+	}
+	.updateBody2{
+		width: 58%;
+		position: absolute;
+		top: 29%;
+		left: 5%;
+		padding: 0;
+	}
+	.updateContent{
+		width: 30%;
+		background: #fff;
+		margin: 0.75%;
+		border: 0.3vw solid #6b696a;
+		border-radius: 1vw;
+		padding: 0.5vw 0;
+	}
+	.updateContent:hover{
+		transition: .2s ease-in;
+		border-color: red;
+	}
+	.updateContent a img{
+		width: 100%;
+		cursor: pointer;
+	}
+	.updateContent a button, .updateHR{
+		display: none;
+	}
+	.allButton{
+		background: red;
+		padding: 0.5vw 5vw 0.5vw;
+		margin: 1.8vw 0 0 -2.8vw;
+		font-size: 2vw;
+		letter-spacing: 0.5vw;
+		-webkit-box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.57);
+		-moz-box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.57);
+		box-shadow: 0px 0px 16px -3px rgba(0,0,0,0.57);
+	}
+	.allButton:hover{
+		transition: .3s ease-in;
+		background: #6b696a;
+	}
+
+	/*  RUNWAY --------------------------------------------------  */
+	.runway{
+		width: 100%;
+		padding: 0 0 10px;
+		margin: 0;
+	}
+	.runwayWrap {
+		width: 1000px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 0 1%;
+	}
+	.runway .headerSection{
+		padding-bottom: 15px;
+	}
+	.runway .elementHeaderSection1{
+		width: 75%;
+		max-width: 800px;
+	    font-size: 2em;
+		padding: 13px 20px;
+	}
+	.runway .elementHeaderSection2{
+		width: 100%;
+		height: 0.1px;
+		margin: 1vw 0 0;
+	}
+	.runway p{
+		font-size: 27px;
+		margin-bottom: 15px;
+	}
+	.runwayImg, .runwayImgEX1, .runwayImgEX2{
+		display: inline;
+		width: 19%;
+		margin: -0.3%;
+		margin-bottom: 3vw;
+	}
+}
